@@ -1,0 +1,38 @@
+{
+    "guide": {
+        "id": 0,
+        "name": "Guides",
+        "description": "A custom tailored guide just for you.",
+        "points": [
+            "Available for any game",
+            "Tailored to your experience level"
+        ],
+        "price": 5,
+        "pricing-type": "per",
+        "discount": false
+    },
+    "coaching": {
+        "id": 1,
+        "name": "Coaching",
+        "description": "Have a brief strategy session, and get a much more personal guide for your goal.",
+        "points": [
+            "Completely custom",
+            "Created by a real professional"
+        ],
+        "price": 15,
+        "pricing-type": "per",
+        "discount": false
+    },
+    "live-assist": {
+        "id": 0,
+        "name": "Live Assist",
+        "description": "Live support from a professional.",
+        "points": [
+            "Several professionals available",
+            "Multiplayer and Singleplayer support"
+        ],
+        "price": 30,
+        "pricing-type": "hourly",
+        "discount": false
+    }
+}
