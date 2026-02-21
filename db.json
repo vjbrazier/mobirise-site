@@ -1,38 +1,142 @@
 {
-    "guide": {
+    "achievement_guides": {
         "id": 0,
-        "name": "Guides",
-        "description": "A custom tailored guide just for you.",
+        "name": "Achievement Guides",
+        "price_description": "A custom tailored guide just for you.",
+        "service_description": "Custom-built achievement guides made specifically for you. We break down every requirement in a clear, efficient path based on how you play, not a one-size-fits-all checklist.", 
+        "image_link": "",
         "points": [
             "Available for any game",
             "Tailored to your experience level"
         ],
         "price": 5,
-        "pricing-type": "per",
+        "pricing_unit": "guide",
         "discount": false
     },
-    "coaching": {
+    "pro_strategy_coaching": {
         "id": 1,
         "name": "Coaching",
-        "description": "Have a brief strategy session, and get a much more personal guide for your goal.",
+        "price_description": "Have a brief strategy session, and get a much more personal guide for your goal.",
+        "service_description": "One-on-one strategy sessions with experienced players who know the game inside and out. Get personalized tips, optimized routes, and answers to the exact things you're stuck on.",
+        "image_link": "",
         "points": [
             "Completely custom",
             "Created by a real professional"
         ],
         "price": 15,
-        "pricing-type": "per",
+        "pricing_unit": "achievement",
         "discount": false
     },
-    "live-assist": {
-        "id": 0,
+    "live_assist": {
+        "id": 2,
         "name": "Live Assist",
-        "description": "Live support from a professional.",
+        "price_description": "Live support from a professional.",
+        "service_description": "Direct, real-time help from a professional who joins your game or call. Whether it's a tough boss, multiplayer achievement, or perfect run, we're there with you every step",
+        "image_link": "",
         "points": [
             "Several professionals available",
             "Multiplayer and Singleplayer support"
         ],
         "price": 30,
-        "pricing-type": "hourly",
+        "pricing_unit": "hour",
+        "discount": false
+    },
+    "full_achievement_roadmap": {
+        "id": 3,
+        "name": "Full Achievement Roadmap",
+        "price_description": "A complete strategic breakdown of every achievement in a game, optimized for efficiency.",
+        "service_description": "This service provides a complete, structured plan covering every achievement in your chosen game from start to finish. You'll receive a progression order designed to minimize backtracking and prevent missing any time-sensitive objectives.",
+        "image_link": "",
+        "points": [
+            "Ordered for fastest completion",
+            "Includes missable achievement warnings"
+        ],
+        "price": 20,
+        "pricing_unit": "game",
+        "discount": false
+    },
+    "speedrun_optimzation_session": {
+        "id": 4,
+        "name": "Speedrun Optimization Session",
+        "price_description": "Improve your completion time with advanced routing and time-saving techniques.",
+        "service_description": "Work one-on-one with an expert to refine your routing, mechanics, and time management for faster completion. Each session focuses on eliminating inefficiencies and sharpening the specific skills holding back your best runs.",
+        "image_link": "",
+        "points": [
+            "Route analysis and refinement",
+            "Tailored to your current skill level"
+        ],
+        "price": 25,
+        "pricing_unit": "hour",
+        "discount": false
+    },
+    "multiplayer_squad_support": {
+        "id": 5,
+        "name": "Multiplayer Squad Support",
+        "price_description": "A coordinated team session to secure difficult cooperative or competitive achievements.",
+        "service_description": "Join a coordinated session with experienced players to secure difficult co-op or competitive achievements. We handle team setup and strategy so you can focus on execution and success.",
+        "image_link": "",
+        "points": [
+            "Pre-arranged team members available",
+            "Voice coordination included"
+        ],
+        "price": 40,
+        "pricing_unit": "session",
+        "discount": false
+    },
+    "hard_mode_specialist_help": {
+        "id": 6,
+        "name": "Hard Mode Specialist Help",
+        "price_description": "Expert assistance focused specifically on high-difficulty or permadeath achievements.",
+        "service_description": "Receive targeted guidance for the most punishing difficulty settings and permadeath challenges. Strategies are built around consistency, survivability, and smart risk management to maximize your chances of success.",
+        "image_link": "",
+        "points": [
+            "Strategy built around survivability",
+            "Mistake recovery planning"
+        ],
+        "price": 35,
+        "pricing_unit": "hour",
+        "discount": false
+    },
+    "achievement_cleanup_package": {
+        "id": 7,
+        "name": "Achievement Cleanup Package",
+        "price_description": "Target the last few tricky achievements standing between you and 100% completion.",
+        "service_description": "Perfect for players stuck at 90-99% completion, this package focuses on clearing the final remaining achievements. We identify the fastest path to finish strong and eliminate frustrating last hurdles.",
+        "image_link": "",
+        "points": [
+            "Focus on rare or grind-heavy goals",
+            "Optimized for minimal time investment"
+        ],
+        "price": 12,
+        "pricing_unit": "game",
+        "discount": false
+    },
+    "collectible_hunt_assistance": {
+        "id": 8,
+        "name": "Collectible Hunt Assistance",
+        "price_description": "Structured help locating and securing every hidden collectible in your game.",
+        "service_description": "Get structured support to track down every hidden collectible without endless wandering or guesswork. Our approach ensures you clear each area thoroughly while avoiding common missable mistakes.",
+        "image_link": "",
+        "points": [
+            "Region-by-region tracking",
+            "Missable item prevention"
+        ],
+        "price": 18,
+        "pricing_unit": "hour",
+        "discount": false
+    },
+    "platinum_push_package": {
+        "id": 9,
+        "name": "Platinum Push Package",
+        "price_description": "A start-to-finish assistance plan aimed at securing the game's final completion milestone.",
+        "service_description": "Designed for players ready to fully complete a game, this package offers guided support from your current progress to the final milestone. You'll follow a clear roadmap with consistent direction to ensure nothing stands in your way of 100% completion.",
+        "image_link": "",
+        "points": [
+            "Milestone-based progression plan",
+            "Regular progress check-ins"
+        ],
+        "price": 50,
+        "pricing_unit": "game",
         "discount": false
     }
 }
